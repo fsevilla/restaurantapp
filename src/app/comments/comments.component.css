@@ -1,0 +1,59 @@
+ul{
+	list-style: none;
+	margin: 0;
+	padding-top: 40px;
+}
+
+.comment{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 20px;
+	box-shadow: 3px 3px 10px #999;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.comment span{
+	display: block;
+	text-align: right;
+	color: #666;
+	font-style: italic;
+}
+
+
+.newComment{
+	margin-top: 40px;
+	border-top: solid 1px #999;
+}
+
+input,
+textarea{
+	border: solid 1px #ccc;
+	border-radius: 3px;
+	box-shadow: 1px 1px 10px #ccc;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 3px 5px;
+	color: #333;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+input[type=text]{
+	line-height: 24px;
+}
+
+button{
+	line-height: 24px;
+	background-color: #00415A;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	padding: 5px 25px;
+	border-radius: 3px;
+}
+
+button:hover,
+button:focus{
+	background-color: #001F2B;
+}
